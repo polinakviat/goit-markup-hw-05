@@ -588,9 +588,11 @@ img {
 }
 
 .footer-form {
+margin-left: auto;
 }
 
 .footer-subscribe {
+margin-left: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -626,7 +628,6 @@ img {
 }
 
 .footer-btn {
-    margin-left: auto;
     cursor: pointer;
     display: flex;
     justify-content: center;
