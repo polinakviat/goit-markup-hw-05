@@ -587,8 +587,11 @@ img {
     fill: #FFFFFF;
 }
 
+.footer-block-c {
+    margin-left: auto;
+}
+
 .footer-form {
-margin-left: auto;
 }
 
 .footer-subscribe {
@@ -751,7 +754,6 @@ margin-left: auto;
     color: #FFFFFF;
     width: 169px;
     height: 56px;
-    margin-bottom: 24px;
 }
 
 .button-send:focus,
