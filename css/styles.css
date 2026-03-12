@@ -616,7 +616,7 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     font-size: 0.75em;
-    line-height: 1.5;
+    line-height: 24px;
     font-weight: 400;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -675,7 +675,7 @@ img {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
-    transition: 50ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: opacity, visibility;
 }
 
@@ -711,8 +711,8 @@ img {
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #E7E9FC;
     border-radius: 50%;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color, fill;
     position: absolute;
     width: 24px;
     height: 24px;
@@ -801,7 +801,7 @@ img {
 
 .order-icon {
     position: absolute;
-    top: 66%;
+    top: 38px;
     left: 16px;
     transform: translateY(-50%);
     fill: #2E2F42;
