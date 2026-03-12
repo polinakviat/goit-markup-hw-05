@@ -530,7 +530,8 @@
                 <textarea class="order-comment" name="userComment" id="userComment" rows="8" placeholder="Text input"></textarea>
                     </label>
                 </div>
-                <label class="order-agreement" for="userAgreement">
+                <div class="order-agreement-wrapper">
+                    <label class="order-agreement" for="userAgreement">
                     <input class="order-check visually-hidden" type="checkbox" id="userAgreement" name="userAgreement" value="true" checked />
                     <span class="order-toggler">
                         <svg class="order-toggler-icon" width="10" height="8">
@@ -538,10 +539,13 @@
                             </use>
                         </svg>
                     </span>
+                    <span class="agreement-text">
                         I accept the terms and conditions of the 
-                    <a class="order-link" href="#">Privacy Policy</a>
+                    <a class="order-link" href="#"> Privacy Policy</a>
+                    </span>
                 </label>
-            
+                </div>
+                
                 <button type="submit" class="button-send">
                     Send
                 </button>
