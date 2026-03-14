@@ -5,7 +5,11 @@ body {
     background-color: #FFFFFF;
 }
 
-body:has(.backdrop.is-open) {
+/* body:has(.backdrop.is-open) {
+    overflow-y: hidden;
+} */
+
+body:has(.backdrop-is-open) {
     overflow-y: hidden;
 }
 
@@ -665,7 +669,7 @@ img {
 
 /* #region Backdrop */
 
-.backdrop {
+.backdrop-is-open {
     position: fixed;
     top: 0;
     left: 0;
@@ -679,11 +683,17 @@ img {
     transition-property: opacity, visibility;
 }
 
-.backdrop.is-open {
+.backdrop-is-open {
     opacity: 1;
-    pointer-events:all;
+    pointer-events: all;
     visibility: initial;
 }
+
+/* .backdrop-is-open {
+    opacity: 1;
+    pointer-events: all;
+    visibility: initial;
+} */
 
 .modal {
     position: absolute;
